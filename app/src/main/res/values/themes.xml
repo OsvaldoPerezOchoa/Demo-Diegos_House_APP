@@ -1,0 +1,63 @@
+<resources>
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#F5E1C3</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="windowSplashScreenIconBackgroundColor">#F5E1C3</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.DiegosHouse</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DiegosHouse" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/brown_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/pizza_orange</item>
+        <item name="colorSecondaryVariant">@color/tomato_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/brown_dark</item>
+        <!-- Set icons color in status bar (light or dark) -->
+        <item name="android:windowLightStatusBar">false</item> <!-- Cambia los iconos a color claro -->
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@color/brown_dark</item>
+        <!-- Navigation bar icons color -->
+        <item name="android:windowLightNavigationBar">false</item> <!-- Cambia los iconos a color claro -->
+
+        <item name="fontFamily">@font/roboto_normal</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnPrimary">@color/brown_dark</item>
+        <item name="cornerSizeBottomRight">30dp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomLeft">30dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+    </style>
+
+    <style name="CustomTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">@color/brown_dark</item> <!-- Color del hint -->
+        <item name="boxStrokeColor">@color/pizza_orange</item> <!-- Color del borde cuando el campo está enfocado -->
+        <item name="boxBackgroundColor">@color/beige_light</item> <!-- Color del fondo de la caja -->
+        <item name="android:textColorHint">@color/tomato_red</item> <!-- Color del hint -->
+        <item name="startIconTint">@color/brown_dark</item>
+        <item name="counterTextColor">@color/brown_dark</item>
+    </style>
+
+    <style name="CustomTextInputEditTextStyle" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/brown_dark</item> <!-- Cambiado a marrón oscuro -->
+        <item name="android:textSize">16sp</item> <!-- Tamaño del texto -->
+    </style>
+
+    <style name="cardviewProductos">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+        <item name="android:background">@color/background_main</item>
+    </style>
+</resources>

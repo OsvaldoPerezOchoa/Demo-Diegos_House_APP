@@ -1,0 +1,73 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="16dp"
+    app:strokeWidth="2dp"
+    app:strokeColor="@color/stroke_color"
+    android:backgroundTint="@color/background_card"
+    android:layout_marginBottom="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"> <!-- Aseguramos que la orientación sea vertical -->
+
+        <!-- Encabezado -->
+        <LinearLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/header_background"
+            android:clickable="true"
+            android:focusable="true">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/txt_titulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pregunta frecuente"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/header_text" />
+
+        <!-- Indicador visual -->
+        <ImageView
+            android:id="@+id/arrowIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_row_down"
+            android:contentDescription="@string/ic_flecha"
+            app:tint="@color/icon_tint" />
+    </LinearLayout>
+
+    <!-- Contenido Expandible -->
+    <LinearLayout
+        android:id="@+id/expandableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/expandable_background">
+
+    <!-- Descripción -->
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aqu_se_mostrar_el_contenido_expandible_con_m_s_informaci_n_sobre_la_pregunta_frecuente"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:fontFamily="@font/roboto_normal"
+        android:textColor="@color/expandable_text" />
+</LinearLayout>
+    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>

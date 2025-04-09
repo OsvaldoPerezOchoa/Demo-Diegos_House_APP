@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="black2">#A7000000</color>
+    <color name="dark_green1">#00241A</color>
+    <color name="dark_green2">#01251B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="deep_green">#00251A</color>
+    <color name="light_gray">#BCBCBC</color>
+    <color name="light_green_gray1">#7F918C</color>
+    <color name="light_green_gray2">#80928D</color>
+    <color name="light_green">#7F928C</color>
+    <color name="gris">#5EE2E2E2</color>
+    <color name="red">#FF0000</color>
+    <color name="Amarillo">#FFBA60</color>
+    <color name="transparente">#00FFFFFF</color>
+    <color name="background_card">#FFFFFF</color>
+    <color name="header_background">#FEE9D7</color>
+    <color name="header_text">#C85C5C</color>
+    <color name="icon_tint">#F4A261</color>
+    <color name="expandable_background">#FFF8F2</color>
+    <color name="expandable_text">#333333</color>
+    <color name="stroke_color">#FEDAC3</color>
+    <color name="background_light">#EAF8F1</color>
+    <color name="primary">#4CAF50</color>
+    <color name="splash_background">#FFF8F2</color>
+    <color name="brown_dark">#3D1E0F</color> <!-- Marrón oscuro para textos y títulos -->
+    <color name="beige_light">#FFF5E1</color> <!-- Beige claro para fondos -->
+    <color name="pizza_orange">#F68026</color> <!-- Naranja para botones y detalles -->
+    <color name="tomato_red">#D22B2B</color> <!-- Rojo para alertas y acciones -->
+    <color name="background_main">#FFF8F2</color> <!-- Fondo principal cálido -->
+    <color name="pizza_red">#E53935</color> <!-- Rojo similar al de salsa de pizza -->
+</resources>
